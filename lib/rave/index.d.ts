@@ -19,6 +19,7 @@ interface RavePropInterface {
     onFailed?: any;
     onSuccess?: any;
     onVerifyingError?: any;
+    WebViewRef?: any;
     colour: string;
     buttonText: string;
 }
