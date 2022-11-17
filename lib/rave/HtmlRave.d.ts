@@ -6,6 +6,7 @@ interface HtmlRaveInterface {
     country: string;
     payment_options: string;
     redirect_url: string;
+    subaccount?: any;
     consumer_id: number;
     consumer_mac: string;
     email: string;

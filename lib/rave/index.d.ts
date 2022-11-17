@@ -19,9 +19,10 @@ interface RavePropInterface {
     onFailed?: any;
     onSuccess?: any;
     onVerifyingError?: any;
-    WebViewRef?: any;
     colour: string;
     buttonText: string;
+    customButton: boolean;
+    subaccount?: any;
 }
 declare function Rave(props: RavePropInterface): any;
 declare namespace Rave {
