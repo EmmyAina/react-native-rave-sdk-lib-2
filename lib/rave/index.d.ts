@@ -23,8 +23,11 @@ interface RavePropInterface {
     buttonText: string;
     customButton: boolean;
     subaccount?: any;
+    submitPendingTrx?: any;
 }
-declare function Rave(props: RavePropInterface): any;
+declare function Rave(props: RavePropInterface, { children }: {
+    children: any;
+}): any;
 declare namespace Rave {
     var defaultProps: {
         buttonText: string;
